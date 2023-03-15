@@ -1,14 +1,11 @@
-let n1 = 10
-let n2 = 10
+// -- && and = Somente se se duas informaçõe forem verdadeira, significa que é verdadeira           
+console.log(5 > 3 && 3 == 2)
+console.log(true && true)
 
-if (n1 >= 30){
-    console.log(`O numero ${n1} é maior que 30`)
+// -- || or = Se uma das duas informações forem verdadeiram significa que é verdadeira
+console.log(5 > 3 || 3 == 2)
+console.log(false || true)
 
-} else {console.log(`O numero ${n1} é menor que 30`)}
-
-
-
-//Identico ===
-
-console.log(3 === "3")
-console.log(3 === "3")
+ //  --!  ~ = Senal de negação//
+console.log(!true)
+console.log(!true && true)
